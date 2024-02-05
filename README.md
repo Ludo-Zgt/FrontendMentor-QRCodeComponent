@@ -16,36 +16,23 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
-<style>
-.container {
-  position: relative;
- 
-  color: hsl(218, 44%, 22%);
-}
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-</style>
-<div class="container">
-  <img src="./design/desktop-design.jpg" alt="desktop-design" width="100%"/>
-  <div class="top-left">Expected Desktop 1440x900px</div>
-</div>
-<div class="container">
-  <img src="./screenshot/desktop-screenshot.png" alt="desktop-screenshot" width="100%"/>
-<div class="top-left">Actual Desktop 1440x900px</div>
-</div>
 
-<div class="container">
-<img src="./design/mobile-design.jpg" alt="mobile" width="30%"/>
-<div class="top-left">Expected Mobile 375x667px</div>
-</div>
+Desktop 1440x900px
+| Expected               | Actual               |
+| :---------------------- | ---------------------- |
+| ![expected-desktop](./design/desktop-design.jpg) | ![actual-desktop](./screenshot/desktop-screenshot.png) |
 
-<div class="container">
-<img src="./screenshot/mobile-screenshot2.png" alt="mobile" width="30%"/>
-<div class="top-left">Actual Mobile 375x667px</div>
-</div>
+Mobile 375x667px
+| Expected               | Actual               |
+| ---------------------- | ---------------------- |
+| ![expected-mobile](./design/mobile-design.jpg) | ![actual-mobile](./screenshot/mobile-screenshot2.png) |
+
+
+<p float="left">
+<img src="./design/mobile-design.jpg" alt="mobile-design" width="50%"/>
+
+<img src="./screenshot/mobile-screenshot2.png" alt="mobile-screenshot" width="50%"/>
+</p>
 
 
 
