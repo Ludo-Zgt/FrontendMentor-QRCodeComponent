@@ -16,10 +16,36 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
+<style>
+.container {
+  position: relative;
+ 
+  color: hsl(218, 44%, 22%);
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+</style>
+<div class="container">
+  <img src="./design/desktop-design.jpg" alt="desktop-design" width="100%"/>
+  <div class="top-left">Expected Desktop 1440x900px</div>
+</div>
+<div class="container">
+  <img src="./screenshot/desktop-screenshot.png" alt="desktop-screenshot" width="100%"/>
+<div class="top-left">Actual Desktop 1440x900px</div>
+</div>
 
+<div class="container">
+<img src="./design/mobile-design.jpg" alt="mobile" width="30%"/>
+<div class="top-left">Expected Mobile 375x667px</div>
+</div>
 
-<img src="./screenshot/desktop-screenshot.png" alt="desktop" width="600"/>
-<img src="./screenshot/mobile-screenshot.png" alt="mobile" width="200"/>
+<div class="container">
+<img src="./screenshot/mobile-screenshot2.png" alt="mobile" width="30%"/>
+<div class="top-left">Actual Mobile 375x667px</div>
+</div>
 
 
 

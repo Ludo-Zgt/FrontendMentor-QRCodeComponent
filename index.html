@@ -30,10 +30,14 @@
       align-items: center;
       justify-content: center;
       height: 100%;
+      margin: 0;
     }
     img {
       width: 100%;
       border-radius: 10px;
+    }
+    .card-content {
+      margin: 0.5rem 0;
     }
     h1 {
       font-size: 1.5rem;
@@ -74,15 +78,17 @@
 
   <div class="card">
     <img src="images/image-qr-code.png">
-    <h1>Improve your front-end skills by building projects</h1>
-    <p>
-      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-    </p>
+    <div class="card-content">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </p>
+    </div>
   </div>
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Ludovic ZWINGELSTEIN</a>.
-  </div>
+  </footer>
 </body>
 </html>
