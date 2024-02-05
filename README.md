@@ -17,8 +17,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot/desktop-screenshot.png)
-![](./screenshot/mobile-screenshot.png)
+
+<img src="./screenshot/desktop-screenshot.png" alt="desktop" width="600"/>
+<img src="./screenshot/mobile-screenshot.png" alt="mobile" width="200"/>
+
 
 
 ### Links
