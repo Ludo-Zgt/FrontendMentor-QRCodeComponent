@@ -6,10 +6,12 @@
   <link rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Outfit:400">
   <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Outfit:500">
+  <link rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Outfit:700">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | QR code component</title>
+  <title>Ludovic ZWINGELSTEIN</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -25,7 +27,7 @@
     }
     body {
       font-family: 'Outfit', sans-serif;
-      background-color: var(--color-light-gray);
+      background-color: var(--color-white);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -37,58 +39,87 @@
       border-radius: 10px;
     }
     .card-content {
-      margin: 0.5rem 0;
+      margin: 0.5rem 0.5rem;
+    }
+    .tag-html {
+        color: rgb(106, 190, 205);
+    }
+    .tag-css {
+        color: rgb(62, 84, 163);
     }
     h1 {
       font-size: 1.5rem;
       color: var(--color-dark-blue);
       margin-top: 1rem;
       font-weight: 700;
-      padding: 0 1rem;
     }
     p {
       font-size: 1rem;
       color: var(--color-grayish-blue);
-      margin: 0 0 1.2rem 0;
+      /* margin: 0 0 1.2rem 0; */
       font-weight: 400;
-      padding: 0 1rem;
     }
     .card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 19rem;
-      padding: 1rem;
-      background-color: var(--color-white);
-      box-shadow: 0 16px 16px rgba(0, 0, 0, 0.1);
-      border-radius: 20px;
-      text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 19rem;
+        padding: 1rem;
+        background-color: var(--color-white);
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        text-align: center;
+    }
+    .clickable {
+        cursor: pointer;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        display: inline-flex;
+        gap: 0.5rem;
+        vertical-align: middle;
+        width: auto;
+    }
+    .tags {
+        display: flex;
+        justify-content: left;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        font-weight: 700;
     }
     .attribution { 
-      position: absolute;
-      bottom: 1rem;
-      font-size: 11px;
-      text-align: center;
+        position: absolute;
+        bottom: 1rem;
+        font-size: 11px;
+        text-align: center;
     }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 
-  <div class="card">
-    <img src="images/image-qr-code.png">
+  <div class="card clickable" onclick="window.open('challenges/qrcode/index.html');">
+    <img src="challenges/qrcode/design/desktop-preview.jpg">
     <div class="card-content">
-      <h1>Improve your front-end skills by building projects</h1>
+      <h1>QR Code Component</h1>
+      <div class="tags">
+        <ul>
+            <li class="tag-html">HTML</li>
+            <li class="tag-css">CSS</li>
+        </ul>
+        </div>
       <p>
-        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        First challenge from Frontend Mentor.
       </p>
     </div>
   </div>
   
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Ludovic ZWINGELSTEIN</a>.
+    Coded by <a href="#">Ludovic ZWINGELSTEIN</a>
   </footer>
 </body>
 </html>

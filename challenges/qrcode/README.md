@@ -24,14 +24,14 @@ Desktop 1440x900px
 
 Mobile 375x667px
 | Expected               | Actual               |
-| ---------------------- | ---------------------- |
+|:-------------------------:|:-------------------------:|
 | ![expected-mobile](./design/mobile-design.jpg) | ![actual-mobile](./screenshot/mobile-screenshot2.png) |
 
 
 <p float="left">
-<img src="./design/mobile-design.jpg" alt="mobile-design" width="50%"/>
+<img src="./design/mobile-design.jpg" alt="mobile-design" width="100"/>
 
-<img src="./screenshot/mobile-screenshot2.png" alt="mobile-screenshot" width="50%"/>
+<img src="./screenshot/mobile-screenshot2.png" alt="mobile" width="100"/>
 </p>
 
 
